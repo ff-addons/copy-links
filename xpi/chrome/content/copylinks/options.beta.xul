@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://abhere/locale/dialog.dtd">
+<?xml-stylesheet href="chrome://browser/skin/" type="text/css"?>
+
+<dialog id="abhereDialog"
+		 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		 title="&window.title;"
+		 buttons="accept, cancel"
+		 onload="initDialog();"
+		 ondialogaccept="return onDialogOK();"
+		 persist="screenX screenY">
+
+	<!--<script type="application/x-javascript" src="chrome://abhere/content/abhereDialog.js"/>-->
+
+
+	<vbox>
+		<groupbox>
+			<caption label="&section.properties;"/>
+			<grid flex="1">
+				<columns>
+					<column/>
+					<column flex="1"/>
+				</columns>
+				<rows>
+
+					<row align="center">
+						<label value="&name.label;" control="name" />
+						<textbox id="name" oninput="onFieldInput();"/>
+					</row>
+
+
+					<row align="center">
+						<label value="&location.label;" control="url"/>
+						<textbox id="url" oninput="onFieldInput();"/>
+					</row>
+
+
+					<row align="center">
+						<label value="&keyword.label;" control="keyword"/>
+						<textbox id="keyword" />
+					</row>
+
+					<separator class="thin"/>
+
+					<row align="top">
+						<label value="&description.label;" control="desc"/>
+						<textbox id="desc" multiline="true" rows="2" cols="35" />
+					</row>
+
+				</rows>
+			</grid>
+			<separator class="thin"/>
+		</groupbox>
+		<separator class="thin"/>
+		<checkbox id="sidebar" label="&sidebar.label;" />
+		<separator class="thin"/>
+		<checkbox id="tabs" label="&folder.label;" oncommand="onTabsChanged();" />
+	</vbox>
+
+</dialog>
+

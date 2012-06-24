@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://copylinks/locale/copylinks.dtd">
+
+<overlay id="CopyLinksOverlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="copylinksOverlay.js"/>
+
+	<popup id="contentAreaContextMenu">
+		<menu
+			id="CopyLinks-menu"
+			label="&CopyLinks.label;"
+			accesskey="&CopyLinks.accesskey;"
+			insertafter="context-copylink"
+			>
+			<menupopup>
+				<menuitem
+					id="CopyLinks-all"
+					label="&CopyLinksAll.label;"
+					accesskey="&CopyLinksAll.accesskey;"
+					oncommand="gCopyLinks.OnCommand('all')"/>
+				<menuitem
+					id="CopyLinks-sel"
+					label="&CopyLinksSel.label;"
+					accesskey="&CopyLinksSel.accesskey;"
+					oncommand="gCopyLinks.OnCommand('sel')"/>
+			</menupopup>
+		</menu>
+	</popup>
+	<menupopup id="menu_EditPopup">
+		<menuseparator />
+		<menu
+			id="CopyLinks-menu-edit"
+			label="&CopyLinks.label;"
+			accesskey="&CopyLinks.accesskey;"
+			>
+			<menupopup>
+				<menuitem
+					id="CopyLinks-all-edit"
+					label="&CopyLinksAll.label;"
+					accesskey="&CopyLinksAll.accesskey;"
+					oncommand="gCopyLinks.OnCommand('all')"/>
+				<menuitem
+					id="CopyLinks-sel-edit"
+					label="&CopyLinksSel.label;"
+					accesskey="&CopyLinksSel.accesskey;"
+					oncommand="gCopyLinks.OnCommand('sel')"/>
+			</menupopup>
+		</menu>
+	</menupopup>
+</overlay>

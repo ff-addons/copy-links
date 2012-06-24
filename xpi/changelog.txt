@@ -1,0 +1,26 @@
+0.1.4
+
+tweaked: Compatible with Firefox 2.0.
+
+***********************************************************
+0.1.3
+
+tweaked: Compatible with Firefox 1.5.
+
+***********************************************************
+
+0.1.2
+
+added: Japanese localization.
+fixed: small bug in showing menu separator.
+tweaked: use object model in codes.
+
+***********************************************************
+0.1.1
+
+fixed: don's show menu separator if there has had a separator already.
+
+***********************************************************
+0.1
+
+First released!

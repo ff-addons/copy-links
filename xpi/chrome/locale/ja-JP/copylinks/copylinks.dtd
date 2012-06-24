@@ -1,0 +1,6 @@
+<!ENTITY CopyLinks.label "リンクのコピー">
+<!ENTITY CopyLinks.accesskey "L">
+<!ENTITY CopyLinksAll.label "全てのリンクをコピー">
+<!ENTITY CopyLinksAll.accesskey "A">
+<!ENTITY CopyLinksSel.label "選択範囲のリンクをコピー">
+<!ENTITY CopyLinksSel.accesskey "S">

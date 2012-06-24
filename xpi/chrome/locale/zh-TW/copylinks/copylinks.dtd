@@ -1,0 +1,6 @@
+<!ENTITY CopyLinks.label "大量複製鏈結網址">
+<!ENTITY CopyLinks.accesskey "L">
+<!ENTITY CopyLinksAll.label "複製所有鏈結">
+<!ENTITY CopyLinksAll.accesskey "A">
+<!ENTITY CopyLinksSel.label "複製已選擇的鏈結">
+<!ENTITY CopyLinksSel.accesskey "S">

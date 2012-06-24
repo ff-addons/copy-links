@@ -1,0 +1,6 @@
+<!ENTITY CopyLinks.label "Copy Links">
+<!ENTITY CopyLinks.accesskey "L">
+<!ENTITY CopyLinksAll.label "Copy All Links">
+<!ENTITY CopyLinksAll.accesskey "A">
+<!ENTITY CopyLinksSel.label "Copy Selected Links">
+<!ENTITY CopyLinksSel.accesskey "S">
