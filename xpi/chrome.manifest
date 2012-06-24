@@ -1,0 +1,8 @@
+content	copylinks	chrome/content/copylinks/
+
+locale	copylinks	en-US	chrome/locale/en-US/copylinks/
+locale	copylinks	zh-TW	chrome/locale/zh-TW/copylinks/
+locale	copylinks	ja-JP	chrome/locale/ja-JP/copylinks/
+
+overlay	chrome://navigator/content/navigatorOverlay.xul	chrome://copylinks/content/copylinksOverlay.xul
+overlay	chrome://browser/content/browser.xul	chrome://copylinks/content/copylinksOverlay.xul

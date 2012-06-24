@@ -7,7 +7,7 @@ var gCopyLinks = {
 		var argv = gCopyLinks.GetLinks.arguments;
 		var reMask;
 
-		var selLinks = new Array();
+		var selLinks = [];
 		var i, j = 0;
 
 		if (argc > 1)

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE overlay SYSTEM "chrome://copylinks/locale/copylinks.dtd">
 
@@ -16,15 +16,15 @@
 			>
 			<menupopup>
 				<menuitem
-					id="CopyLinks-all"
-					label="&CopyLinksAll.label;"
-					accesskey="&CopyLinksAll.accesskey;"
-					oncommand="gCopyLinks.OnCommand('all')"/>
-				<menuitem
 					id="CopyLinks-sel"
 					label="&CopyLinksSel.label;"
 					accesskey="&CopyLinksSel.accesskey;"
 					oncommand="gCopyLinks.OnCommand('sel')"/>
+				<menuitem
+					id="CopyLinks-all"
+					label="&CopyLinksAll.label;"
+					accesskey="&CopyLinksAll.accesskey;"
+					oncommand="gCopyLinks.OnCommand('all')"/>
 			</menupopup>
 		</menu>
 	</popup>
@@ -37,15 +37,15 @@
 			>
 			<menupopup>
 				<menuitem
-					id="CopyLinks-all-edit"
-					label="&CopyLinksAll.label;"
-					accesskey="&CopyLinksAll.accesskey;"
-					oncommand="gCopyLinks.OnCommand('all')"/>
-				<menuitem
 					id="CopyLinks-sel-edit"
 					label="&CopyLinksSel.label;"
 					accesskey="&CopyLinksSel.accesskey;"
 					oncommand="gCopyLinks.OnCommand('sel')"/>
+				<menuitem
+					id="CopyLinks-all-edit"
+					label="&CopyLinksAll.label;"
+					accesskey="&CopyLinksAll.accesskey;"
+					oncommand="gCopyLinks.OnCommand('all')"/>
 			</menupopup>
 		</menu>
 	</menupopup>
